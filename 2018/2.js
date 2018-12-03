@@ -261,7 +261,7 @@ const answer1 = ((boxes, twos = 0, threes = 0) => {
   return twos * threes;
 })(input.split('\n').map((box) => box.split('')));
 
-console.log('Day 1, Answer 1:', answer1);
+console.log('Day 2, Answer 1:', answer1);
 
 const answer2 = ((boxes) => {
   for (let i = 0; i <= boxes.length - 2; i++) {
@@ -274,4 +274,4 @@ const answer2 = ((boxes) => {
   }
 })(input.split('\n').map((box) => box.split('')));
 
-console.log('Day 1, Answer 2:', answer2);
+console.log('Day 2, Answer 2:', answer2);
